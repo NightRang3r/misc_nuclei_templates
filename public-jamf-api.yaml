@@ -5,7 +5,7 @@ info:
   author: NightRang3r
   severity: info
   description: Public JAMF api/uapi
-  tags: tags
+  tags: exposure,api,swagger
 
 requests:
   - method: GET
