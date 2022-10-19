@@ -14,14 +14,12 @@ requests:
       - "{{BaseURL}}/uapi/schema/"
       - "{{BaseURL}}/api/"
       
-
-    matchers-condition: or
     matchers:
       - type: word
-        part: body
         words:
           - "Swagger UI"
           - "Jamf"
           - "Jamf Pro API"
           - "API Documentation"
-      
+        condition: or
+        part: body
