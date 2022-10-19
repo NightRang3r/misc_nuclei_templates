@@ -15,7 +15,7 @@ requests:
       - "{{BaseURL}}/api/"
       
 
-    matchers-condition: and
+    matchers-condition: or
     matchers:
       - type: word
         part: body
@@ -24,8 +24,7 @@ requests:
           - "Jamf"
           - "Jamf Pro API"
           - "API Documentation"
-        condition: or
-        
+       
       - type: status
         status:
           - 200
