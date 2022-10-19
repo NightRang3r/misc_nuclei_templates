@@ -24,7 +24,4 @@ requests:
           - "Jamf"
           - "Jamf Pro API"
           - "API Documentation"
-       
-      - type: status
-        status:
-          - 200
+      
